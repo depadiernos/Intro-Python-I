@@ -47,7 +47,7 @@ waypoints.append(new)
 # YOUR CODE HERE
 
 for point in waypoints:
-    for i, v in point.items():
+    for k, v in point.items():
         if v == "a place":
             point["lon"] = -130
             point["name"] = "not a real place"
@@ -56,5 +56,5 @@ for point in waypoints:
 # YOUR CODE HERE
 
 for point in waypoints:
-    for i, v in point.items():
+    for k, v in point.items():
         print(v)
